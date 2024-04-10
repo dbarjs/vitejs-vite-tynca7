@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Aeonik;
+  src: url(../fonts/Aeonik_OVERVIEW-Regular.0e9e84d3.ttf);
+}
+
+* {
+  font-family: Aeonik;
+}
+
+.primary {
+  background-color: hsla(0, 0%, 57.3%, 0.4392156862745098);
+}
+
+.fas {
+  color: hsla(0, 0%, 100%, 0.698);
+}
+
+.z-shape.is-extension.z-spot {
+  cursor: pointer;
+}
+
+.sub-circle-info {
+  border-color: rgba(54, 54, 54, 0.6784313725490196) !important;
+  background-color: rgba(71, 71, 71, 0.8549019607843137) !important;
+}
+
+.sub-circle,
+.sub-circle-info {
+  border-width: 4.5px !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 104% 105%;
+}
+
+.sub-circle {
+  border-color: #949494 !important;
+  background-color: hsla(0, 0%, 79.2%, 0.8705882352941177) !important;
+}
+
+.z-canvas.is-full-mode {
+  position: relative;
+  background: linear-gradient(#000, #000),
+    url(https://central.fairfax.com.br/source/img/ff-building.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 100%, 50%;
+  background-size: cover, cover;
+  background-blend-mode: saturation;
+}
+
+@media (min-width: 960px) {
+  .z-view {
+    overflow: visible;
+    width: 512px !important;
+    height: 512px !important;
+    margin: -270px !important;
+    transform: translate3d(0px, 0px, 0px) scale(1);
+  }
+}
+
+.z-label.bottom > .inside,
+.z-label.left > .inside,
+.z-label.right > .inside,
+.z-label.top > .inside {
+  border-radius: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: initial !important;
+  color: #fff;
+}
+
+.z-outer-circle {
+  border-width: 1px;
+  border-style: none;
+  opacity: 0.2;
+}
+
+.z-shape {
+  border-width: 2.5px;
+  border-style: solid;
+  text-align: center;
+  border-color: hsla(0, 0%, 98.4%, 0.45098039215686275);
+}
+
+.z-label {
+  font-size: calc(12px + 0.5vw);
+  position: absolute;
+  height: 28px;
+  background: none;
+  white-space: nowrap;
+}
