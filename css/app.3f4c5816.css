@@ -279,18 +279,18 @@
 }
 
 .acidente-icon,
-.fiança-icon {
+.fianca-icon {
   background-repeat: no-repeat !important;
 }
 
-.fiança-icon {
-  background-image: url(https://central.fairfax.com.br/source/img/fianca.jpg);
+.fianca-icon {
+  background-image: url('https://central.fairfax.com.br/source/img/fianca.jpg');
   background-position: 100% !important;
   background-size: 140% 100% !important;
 }
 
 .stoploss-icon {
-  background-image: url(https://central.fairfax.com.br/source/img/stoploss.jpg);
+  background-image: url('https://central.fairfax.com.br/source/img/stoploss.jpg');
   background-position: 50% !important;
   background-size: 130% 100% !important;
   background-repeat: no-repeat !important;

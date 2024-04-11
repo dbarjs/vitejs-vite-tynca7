@@ -1,3 +1,5 @@
+// bus/home.vue
+
 (window['webpackJsonp'] = window['webpackJsonp'] || []).push([
   [8],
   {

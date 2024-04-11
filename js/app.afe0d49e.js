@@ -1,3 +1,5 @@
+// app.vue
+
 (function (e) {
   function n(n) {
     for (
@@ -39,26 +41,14 @@
       '.' +
       {
         2: '5931d5e2',
-        3: '5639e0af',
-        4: '97dd9eab',
-        5: '0d500c1f',
-        6: 'b3abfff0',
-        7: '59663804',
         8: '5ab55002',
-        9: '924aca29',
         10: '54da7e8d',
-        11: '39d6bd26',
-        12: 'b1f410dd',
-        13: 'c93ca485',
-        14: 'f686e4bf',
-        15: 'b82ec3ec',
         16: 'e851d55c',
-        17: '90f8964b',
         18: '40821624',
         19: '99e1487f',
         20: '8a765ed2',
         21: '73db6f8b',
-        22: 'ac694d77',
+        22: 'ac694d77'
       }[e] +
       '.js'
     );
@@ -96,26 +86,14 @@
                   '.' +
                   {
                     2: 'ae19c6be',
-                    3: 'b58ae33c',
-                    4: 'd1842e5d',
-                    5: '109baf03',
-                    6: '76788a6d',
-                    7: 'd4df7291',
                     8: '87a1c430',
-                    9: '31d6cfe0',
                     10: '31d6cfe0',
-                    11: '31d6cfe0',
-                    12: '31d6cfe0',
-                    13: '31d6cfe0',
-                    14: '31d6cfe0',
-                    15: '31d6cfe0',
                     16: '31d6cfe0',
-                    17: '31d6cfe0',
                     18: '31d6cfe0',
                     19: '31d6cfe0',
                     20: '31d6cfe0',
                     21: '31d6cfe0',
-                    22: '31d6cfe0',
+                    22: '31d6cfe0'
                   }[e] +
                   '.css',
                 a = c.p + o,
@@ -496,61 +474,7 @@
             component: () =>
               Promise.all([t.e(0), t.e(16)]).then(t.bind(null, '63b4')),
             name: 'produto',
-          },
-          {
-            path: 'faleconosco',
-            component: () =>
-              Promise.all([t.e(0), t.e(13)]).then(t.bind(null, 'ba92')),
-            name: 'faleconosco',
-          },
-          {
-            path: 'links',
-            component: () =>
-              Promise.all([t.e(0), t.e(12)]).then(t.bind(null, '38b8')),
-            name: 'links',
-          },
-          {
-            path: 'termos',
-            component: () =>
-              Promise.all([t.e(0), t.e(17)]).then(t.bind(null, '3a37')),
-            name: 'termos',
-          },
-          {
-            path: 'politicadeprivacidade',
-            component: () =>
-              Promise.all([t.e(0), t.e(15)]).then(t.bind(null, '73e0')),
-            name: 'politica',
-          },
-          {
-            path: 'ffnews',
-            component: () =>
-              Promise.all([t.e(0), t.e(4)]).then(t.bind(null, '7272')),
-            name: 'midia',
-          },
-          {
-            path: 'ffplace',
-            component: () =>
-              Promise.all([t.e(0), t.e(5)]).then(t.bind(null, 'cb55')),
-            name: 'place',
-          },
-          {
-            path: 'governanca_corporativa',
-            component: () =>
-              Promise.all([t.e(0), t.e(6)]).then(t.bind(null, '2096')),
-            name: 'governanca_corporativa',
-          },
-          {
-            path: 'sustentabilidade',
-            component: () =>
-              Promise.all([t.e(0), t.e(7)]).then(t.bind(null, 'cbd2')),
-            name: 'sustentabilidade',
-          },
-          {
-            path: 'parceria_doutoresdaalegria',
-            component: () =>
-              Promise.all([t.e(0), t.e(3)]).then(t.bind(null, 'c629')),
-            name: 'parceria_doutoresdaalegria',
-          },
+          }
         ],
       },
       {
