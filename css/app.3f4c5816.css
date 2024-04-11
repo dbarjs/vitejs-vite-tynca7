@@ -122,12 +122,7 @@
   background-size: 144% 105% !important;
 }
 
-.aquicola-icon {
-  background-image: url(https://central.fairfax.com.br/source/img/aquicola.jpg);
-}
-
-.animal-icon,
-.aquicola-icon {
+.animal-icon {
   background-position: 50%;
   background-size: 104% 105%;
   background-repeat: no-repeat;
@@ -265,13 +260,6 @@
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
-.vida-icon {
-  background-image: url(https://central.fairfax.com.br/source/img/vida.jpg);
-  background-position: 50%;
-  background-size: 134% 105%;
-  background-repeat: no-repeat;
-}
-
 .acidente-icon {
   background-image: url(https://central.fairfax.com.br/source/img/acidente.jpg);
   background-position: 50% !important;
@@ -313,34 +301,9 @@ body {
   margin-top: -50px;
 }
 
-.ff-transparent {
-  background-color: transparent;
-}
-
-.opaco {
-  background-color: hsla(0, 0%, 100%, 0.10196078431372549);
-  opacity: 0.9;
-}
-
 .header {
   background-color: rgba(0, 0, 0, 0.082);
   opacity: 0.9;
-}
-
-.clean-link {
-  text-decoration: none;
-}
-
-.no-click {
-  pointer-events: none;
-}
-
-.img-center {
-  margin: 0 auto;
-}
-
-.border-white {
-  border: 1px solid #fff;
 }
 
 .slide-1 {
@@ -356,96 +319,6 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position: 100%, 50%;
   background-size: cover, cover;
-}
-
-.slide-2 {
-  background: url(https://central.fairfax.com.br/source/img/ff-logo-negativo.png),
-    linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.7176470588235294) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/businesswoman.jpg);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 96% 96%, 100%, 50%;
-  background-size: 120px 80px, cover, cover;
-}
-
-.slide-3 {
-  background: url(https://central.fairfax.com.br/source/img/ff-logo-negativo.png),
-    linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.7176470588235294) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/presenting-a-business-medium.gif);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 96% 96%, 100%, 50%;
-  background-size: 120px 80px, cover, cover;
-}
-
-.parallax-1 {
-  background: url(https://central.fairfax.com.br/source/img/ff-logo-negativo.png),
-    linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.4392156862745098) 15%,
-      rgba(0, 0, 0, 0.32941176470588235) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/cows.gif);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 98% 96%, 100%, 50%;
-  background-size: 60px 40px, cover, cover;
-}
-
-.ff-blue-100 {
-  background-color: #75b3f0;
-}
-
-.ff-blue-300 {
-  background-color: #3d7af5;
-}
-
-.ff-blue-500 {
-  background-color: #012aff;
-}
-
-.ff-blue-700 {
-  background-color: #00c;
-}
-
-.ff-blue-text-700 {
-  color: #012aff;
-}
-
-.ff-blue-900 {
-  background-color: #1a0099;
-}
-
-.ff-gray-100 {
-  background-color: #f1f1f1;
-}
-
-.ff-gray-300 {
-  background-color: #c2c2c2;
-}
-
-.ff-gray-500 {
-  background-color: #757575;
-}
-
-.ff-gray-700 {
-  background-color: #424242;
-}
-
-.ff-gray-900 {
-  background-color: #0f0f0f;
-}
-
-.custom-caption {
-  text-align: center;
-  padding: 12px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @font-face {
@@ -503,17 +376,6 @@ body {
   display: none;
 }
 
-.ff-card-rounded {
-  border-radius: 5px;
-}
-
-.circular {
-  border-radius: 50%;
-  transform: scale(0.76, 0.5);
-  margin-bottom: -90px;
-  margin-top: -90px;
-}
-
 .item-prev .iconfont:before {
   content: '\f104';
 }
@@ -529,155 +391,9 @@ body {
   content: '\f105';
 }
 
-.bg-shadow {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.47058823529411764) 15%,
-    rgba(0, 0, 0, 0.47058823529411764) 70%
-  );
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-size: cover;
-}
-
-.bg-shadow,
-.quemsomos {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-}
-
-.quemsomos {
-  background: url(https://central.fairfax.com.br/source/img/ff-sobre.png);
-  background-repeat: no-repeat;
-  background-position: 100% 60%;
-  background-size: cover;
-}
-
-.item-section {
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.item-image {
-  filter: grayscale(100%);
-  transition: 0.5s;
-}
-
-.item-section:focus .item-image,
-.item-section:hover .item-image {
-  filter: grayscale(0%);
-  transition: 0.5s;
-}
-
-.item-section:focus .item-image:before,
-.item-section:hover .item-image:before {
-  display: block;
-}
-
-.item-1 {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/Ellipse-3.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: cover, cover;
-}
-
-.item-2 {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/Ellipse-4.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: cover, cover;
-}
-
-.item-3 {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/Ellipse-5.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: cover, cover;
-}
-
-.item-4 {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/Ellipse-2.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: cover, cover;
-}
-
-.parallax-section {
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.parallax-image {
-  height: 100%;
-  width: 100%;
-  filter: grayscale(100%);
-  transition: 0.5s;
-}
-
-.parallax-section:focus .parallax-image,
-.parallax-section:hover .parallax-image {
-  filter: grayscale(0%);
-  transition: 0.5s;
-}
-
-.parallax-section:focus .parallax-image:before,
-.parallax-section:hover .parallax-image:before {
-  display: block;
-}
-
-.parallax-image:focus .a,
-.parallax-image:hover .a {
-  position: absolute;
-  content: '';
-  display: block;
-  padding: 10% 5% 33% 5%;
-  top: 0;
-  left: 0;
-  background-color: rgba(52, 73, 94, 0.342);
-}
-
-.parallax-image:focus .a2,
-.parallax-image:hover .a2 {
-  display: block;
-  margin-top: 225px;
-  padding: 5% 5% 5% 5%;
-}
-
-.a,
-.a2,
-.parallax-image:focus h4,
-.parallax-image:hover h4 {
+.a {
   display: none;
   text-align: center;
-}
-
-.parallax-section:focus .span,
-.parallax-section:hover .span {
-  display: none;
 }
 
 .acoes {
@@ -686,176 +402,9 @@ body {
   cursor: pointer;
 }
 
-.acoes-thin {
-  border-radius: 50% !important;
-  border: 5px solid rgba(112, 109, 109, 0.376);
-  cursor: pointer;
-}
-
-.acao-1 {
-  background: linear-gradient(
-      327deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/graac.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 50%, 50%;
-  background-size: 109% 109%, 109% 109%;
-}
-
-.acao-1,
-.acao-2 {
-  border-radius: 50% !important;
-  border: 10px solid hsla(0, 0%, 72.2%, 0.376);
-}
-
-.acao-2 {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/jaguar-parade.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 50%, 50%;
-  background-size: 109% 109%, 118% 109%;
-}
-
-.acao-3 {
-  border-radius: 50% !important;
-  border: 10px solid hsla(0, 0%, 72.2%, 0.376);
-  background: url(https://central.fairfax.com.br/source/img/schurman-logo.png),
-    linear-gradient(
-      327deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/schurman.png);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 50% 80%, 50%, 50%;
-  background-size: 80px 50px, 109% 109%, 109% 109%;
-}
-
-.acao-4 {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/rally.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: 109% 109%, 109% 109%;
-}
-
-.acao-4,
-.acao-5 {
-  border-radius: 50% !important;
-  border: 10px solid hsla(0, 0%, 72.2%, 0.376);
-}
-
-.acao-5 {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/body-img-doutores-da-alegriaV2.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: 109% 109%, 140%;
-}
-
-.linha {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.44313725490196076) 15%,
-      rgba(0, 0, 0, 0.4588235294117647) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/bg-timeline.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: cover, cover;
-}
-
 .VueCarousel-navigation-button[data-v-453ad8cd] {
   color: #fff !important;
   font-size: 200%;
-}
-
-.tracejado-black {
-  display: flex;
-  flex-direction: row;
-}
-
-.tracejado-black:after,
-.tracejado-black:before {
-  content: '';
-  border-bottom: 1px solid #000;
-  margin: auto 10px !important;
-  flex: 1 1;
-  margin: auto;
-}
-
-.tracejado-black:before {
-  margin-right: 0px;
-}
-
-.tracejado-black:after {
-  margin-left: 0px;
-}
-
-.tracejado-white {
-  display: flex;
-  flex-direction: row;
-}
-
-.tracejado-white:after,
-.tracejado-white:before {
-  content: '';
-  border-bottom: 1px solid #fff;
-  flex: 1 1;
-  margin: auto;
-}
-
-.tracejado-white:before {
-  margin-right: 0px;
-}
-
-.tracejado-white:after {
-  margin-left: 0px;
-}
-
-.faleconosco {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  background: url(https://central.fairfax.com.br/source/img/ff-seguros-companyV2.png),
-    linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.7176470588235294) 15%,
-      rgba(0, 0, 0, 0.7176470588235294) 70%
-    ),
-    url(https://central.fairfax.com.br/source/img/wepik-20210806.png);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 50% 50%, 100%, 50%;
-  background-size: 640px 200px, cover, cover;
-}
-
-.circular-alignment {
-  width: 300px;
-  min-height: 300px;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .bu {
@@ -882,16 +431,4 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-}
-
-.links-page {
-  background: linear-gradient(
-      145deg,
-      rgba(0, 13, 80, 0.3568627450980392) 05%,
-      rgba(0, 0, 0, 0.7176470588235294) 80%
-    ),
-    url(https://central.fairfax.com.br/source/img/links-page.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 100%, 50%;
-  background-size: cover, 100% 260%;
 }
